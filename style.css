@@ -1,0 +1,166 @@
+/* boilerplate code for css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+/* boilerplate code for css end */
+h1{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    font-size: 1vw;
+}
+
+.main{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color:green;
+    padding: 30px;
+    margin : 20px;
+    border : 5px solid black;
+    border-radius: 100px;
+    
+}
+
+h2{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+h3{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+#car1{
+    width: 100px;
+    height: 140px;
+    background-color:red;
+}
+
+#car2{
+    position: absolute;
+    /* top: 100%;
+    left :50%; */
+    width: 80px;
+    height: 40px;
+    background-color:green;
+}
+
+#car3{
+    
+    width: 205px;
+    height: 300px;
+    background-color:yellow;
+}
+
+#box2{
+    position: relative;    
+    width: 400px;
+    height:400px;
+    background-color: red;
+}
+#cube{
+    position: absolute;
+    left: 50%;
+    width:40px;
+    height:40px;
+    background-color:yellow;
+}
+
+#box23{
+    width: 300px;
+    height: 300px;
+    background: url(https://png.pngtree.com/png-vector/20231113/ourmid/pngtree-realistic-water-splash-effect-isolated-on-transparent-background-png-image_10585385.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#box55{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width: 300px;
+    height: 300px;
+    background-color:yellow;
+}
+
+#one{
+    width: 50px;
+    height: 50px;
+    background-color:red;
+}
+
+#two{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+}
+#three{
+    width: 50px;
+    height: 50px;
+    background-color:gray;
+}
+
+/* #psedobefore::before{
+    content: '>';
+} */
+
+#psedobefore::after{
+    content: '>';
+}
+
+#psedobefore::first-line{
+    color: red;
+}
+#psedobefore::first-letter{
+    font-size: 120px;
+}
+#psedobefore::selection{
+    color: green;
+}
+
+#psedoclass:hover{
+    color: blue;
+}
+
+button:active{
+    background-color:red;
+}
+input:focus{
+    background-color:red;
+}
+
+#child:nth-child(2n){
+    color: red;
+}
